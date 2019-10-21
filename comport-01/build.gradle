@@ -1,0 +1,22 @@
+plugins {
+    // Apply the java plugin to add support for Java
+    id 'java'
+
+    // Apply the application plugin to add support for building an application
+    id 'application'
+}
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+
+    // serial communication library
+    implementation 'com.fazecast:jSerialComm:[2.0.0,3.0.0)'
+}
+
+// Define the main class for the application
+mainClassName = 'comport.App'
