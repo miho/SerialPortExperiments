@@ -1,5 +1,5 @@
 # SerialPortExperiments
-Testing serial port communication with Java
+Testing serial port communication with Java and <a href="https://github.com/Fazecast/jSerialComm">jSerialComm</a>.
 
 The first experiment uses the following Arduino code for testing:
 
