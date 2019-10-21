@@ -23,7 +23,7 @@ void loop() {
 }
 ```
 
-## How to Build and Run The experiment
+## How to Build and run the Experiment
 
 ### Requirements
 
